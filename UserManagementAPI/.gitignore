@@ -1,0 +1,22 @@
+
+# Build output
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+
+# Environment files and secrets
+.env
+.env.*
+appsettings.Development.local.json
+**/secrets.json
+
+# IDE files
+.vs/
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
